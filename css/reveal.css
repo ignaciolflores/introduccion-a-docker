@@ -282,6 +282,12 @@ body {
 .reveal .slides > section {
   -ms-perspective: 600px; }
 
+.reveal .sl-block {
+    display: block;
+    position: absolute;
+    z-index: auto;
+}
+
 .reveal .slides > section, .reveal .slides > section > section {
   display: none;
   position: absolute;

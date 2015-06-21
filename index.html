@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>INTROBAY - Aislando procesos con Docker</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Aislando procesos en Docker">
+		<meta name="author" content="Ignacio López Flores">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -36,348 +36,256 @@
 
 	<body>
 
-		<div class="reveal">
+        <!-- Slides  content to be added here -->
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
-				</section>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h2>Introducción a Docker</h2>
+                    <img style="border: none;" src="imgs/large_h-trans.png">
+                    <h3>Betabeers Murcia XI</h3>
+                    <p>Ignacio López Flores</p>
 
-				<section>
-					<h2>Hello There</h2>
-					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
-				</section>
+                </section>
+                <section>
+                    <img align="left" src="imgs/ignacio.png" width="250" border="none">
+                    <div style="float: right;">
+                        <img src="imgs/logo-tag-centro-blanco.svg" width="600" style="border: none; background: none; box-shadow: none">
+                        <p>Ignacio L&oacute;pez Flores -&nbsp;<a href="https://twitter.com/ignaciolflores" target="_blank">@ignaciolflores</a></p>
+                        <p>Founder & CEO @ Introbay</p>
+                        <a href="http://about.me/ignaciolflores" target="_blank">about.me/ignaciolflores</a>
+                    </div>
+                </section>
 
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
+                <section>
+                    <h2>Todo comenzó en Marzo de 2013</h2>
+                </section>
 
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-					</p>
-				</section>
+                <section>
+                    <h2>Y desde entonces...</h2>
+                    <ul>
+                        <li class="fragment">> 200.000 pulls</li>
+                        <li class="fragment">>7,500 estrellas en Github</li>
+                        <li class="fragment">>200 contribuidores importantes</li>
+                        <li class="fragment">>200 proyectos realizados sobre docker</li>
+                        <li class="fragment">>13.000 aplicaciones Dockerizadas</li>
+                        <ul>
+                            <li class="fragment">Memcached, Redis, Node.js, Hadoop...</li>
+                        </ul>
+                        <li class="fragment">Integración en Jenkins, Travis, Chef, Puppet, Vagrant y OpenStack</li>
+                        <li class="fragment">Meetups por todas partes...</li>
+                        <ul>
+                            <li class="fragment">con organizaciones como Ebay, Cloudflare, Betabeers,...</li>
+                        </ul>
+                    </ul>
+                </section>
 
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
+                <section>
+                    <h2>El Reto</h2>
+                    <img src="imgs/el-reto.png">
+                </section>
 
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
+                <section>
+                    <h2>La Matriz del Infierno</h2>
+                    <img src="imgs/the-matrix-from-hell.png" style="background-color: #ffffff" width="80%">
+                </section>
 
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
+                <section>
+                    <h2>Transportes antes de los 60</h2>
+                    <img src="imgs/cargo-transport-pre-1960.png" style="background-color: #ffffff" width="80%">
+                </section>
 
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+                <section>
+                    <h2>Tenían su propia matriz del infierno</h2>
+                    <img src="imgs/also-a-matrix-from-hell.png" style="background-color: #ffffff" width="80%">
+                </section>
 
-						```
-						<section data-markdown>
-						  ## Markdown support
+                <section>
+                    <h2>¿Cómo lo solucionaron?</h2>
+                    <h3>Contenedores de transporte</h3>
+                    <img src="imgs/intermodal-shipping-container.png" style="background-color: #ffffff" width="80%">
+                </section>
 
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
+                <section>
+                    <h3>Se puede ver Docker como</h3>
+                    <h2>Un sistema de Contenedores para Código</h2>
+                    <img src="imgs/shipping-container-for-code.png" style="background-color: #ffffff" width="80%">
+                </section>
 
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
+                <section>
+                    <h2>Docker elimina La matriz del Infierno</h2>
+                    <img src="imgs/eliminates-matrix-from-hell.png" style="background-color: #ffffff" width="80%">
+                </section>
 
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-					</section>
-				</section>
+                <section>
+                    <h2>¿Por qué le gusta a los desarrolladores?</h2>
+                    <ul>
+                        <li class="fragment">Se construye una vez... y se ejecuta en cualquier parte*</li>
+                        <li class="fragment">Un entorno de ejecución limpio, seguro, higiénico y portable para tus aplicaciones.</li>
+                        <li class="fragment">Una vez desplegado, no hay que volver a preocuparse por dependencias, paquetes y otras configuraciones que suelen traer dolores de cabeza.</li>
+                        <li class="fragment">Cada aplicación se ejecuta en su propio contenedor aislado, eso nos permite tener distintas versiones de librerías y otras dependencias para cada aplicación sin preocupaciones.</li>
+                    </ul>
+                    <p>* Donde “cualquier parte” quiere decir un servidor x86 ejecutando un kernel Linux (generalmente 3.2+ o 2.6.32+ para RHEL o derivados)</p>
+                </section>
 
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
+                <section>
+                    <h2>¿Por qué le gusta a los desarrolladores?</h2>
+                    <ul>
+                        <li class="fragment">Test automáticos, integración continua, empaquetado... en definitiva, cualquier cosa para la que se pueda escribir un script.</li>
+                        <li class="fragment">Elimina problemas sobre compatibilidad en diferentes plataformas, tanto en la tuya como en la de tus clientes.</li>
+                        <li class="fragment">No hay penalización a la hora de desplegar servicios. Una VM sin la sobrecarga de una VM. Se pueden re-lanzar y resetear imágenes al instante.</li>
+                    </ul>
+                </section>
 
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
+                <section>
+                    <h2>¿Por qué le gusta a los administradores?</h2>
+                    <ul>
+                        <li class="fragment">Lo configuramos una vez... y lo ejecutamos cada vez que queramos.</li>
+                        <li class="fragment">Consigue que el ciclo de vida sea más eficiente, consistente y repetible.</li>
+                        <li class="fragment">Incrementa la calidad del código de los desarrolladores. Elimina inconsistencias entre entornos de desarrollo, test, producción, etc.</li>
+                    </ul>
+                </section>
 
-				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
-					</section>
-				</section>
+                <section>
+                    <h2>¿Por qué le gusta a los administradores?</h2>
+                    <ul>
+                        <li class="fragment">Mejora significativamente la velocidad en despliegues automáticos y en sistemas de integración continua.</li>
+                        <li class="fragment">Como los contenedores son muy ligeros, se eliminan los problemas de rendimiento, costes, despliegues y problemas de portabilidad a los que normalmente están asociadas las VM.</li>
+                    </ul>
+                </section>
 
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code>Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
+                <section>
+                    <h2>¿Por qué funciona? Separación de conceptos</h2>
+                    <div style="float: left; width: 45%; font-size: 85%">
+                        <h3>Lo de dentro</h3>
+                        Pepe el desarrollador <br>
+                        Se preocupa por lo que está dentro del contenedor:
+                        <ul>
+                            <li>Su código</li>
+                            <li>Sus librerías</li>
+                            <li>Sus aplicaciones</li>
+                            <li>Sus datos</li>
+                            Para el, todos los servidores linux son iguales
+                        </ul>
+                        Para el, todos los servidores linux son iguales
+                    </div>
 
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
+                    <div style="float: right; width: 45%; font-size: 85%">
+                        <h3>Lo de fuera</h3>
+                        Paco el administrador <br>
+                        Se preocupa por lo que está fuera del contenedor:
+                        <ul>
+                            <li>Ficheros de log</li>
+                            <li>Acceso remoto</li>
+                            <li>Monitorización</li>
+                            <li>Configuración de red</li>
+                        </ul>
+                        Todos los contenedores hacen lo mismo y de la misma manera: start, stop, copy, migrate, etc.
+                    </div>
+                </section>
 
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
+                <section>
+                    <h2>Más detalles técnicos</h2>
+                    <h3>Se ejecuta en cualquier parte</h3>
+                    <ul>
+                        <li>Indep. de la versión del kernel</li>
+                        <li>Indep. de la distro del host</li>
+                        <li>Virtual o físico, en la nube o en hierro</li>
+                    </ul>
+                </section>
 
-    var nodes = document.querySelectorAll( selector );
+                <section>
+                    <h2>Más detalles técnicos</h2>
+                    <h3>Se puede ejecutar cualquier cosa</h3>
+                    <ul>
+                        <li>Si se puede ejecutar en el host, se puede ejecutar en el contenedor.</li>
+                        <li>Si se puede ejecutar sobre un kernel Linux, se puede ejecutar</li>
+                    </ul>
+                </section>
 
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
+                <section>
+                    <h2>Más detalles técnicos</h2>
+                    <h3>A alto nivel: una VM ligera</h3>
+                    <ul>
+                        <li>Propio espacio de procesos</li>
+                        <li>Propia interfaz de red</li>
+                        <li>Puede ejecutar órdenes como root</li>
+                        <li>Puede tener su propio /sbin/init</li>
+                        <li>Contenedor == Máquina</li>
+                    </ul>
+                </section>
 
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
+                <section>
+                    <h2>Más detalles técnicos</h2>
+                    <h3>A bajo nivel: CHROOT con esteroides</h3>
+                    <ul>
+                        <li>Puede no tener su propio /sbin/init</li>
+                        <li>Contenedor = procesos aislados</li>
+                        <li>Comparte el kernel con el host</li>
+                        <li>Contenedor == Aplicación</li>
+                    </ul>
+                </section>
 
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
 
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
+                <section>
+                    <h2>VMs vs Contenedores</h2>
 
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							<tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							<tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							<tr>
-						</tbody>
-					</table>
-				</section>
+                    <div style="float: left; width: 45%;">
+                        <img src="imgs/VM-vs-container.png">
+                    </div>
+                    <div style="float: right; width: 45%;">
 
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
+                        <h4>Los contenedores están aislados, pero comparten el kernel</h4>
+                        <p>... lo que aporta los beneficios de las VM pero con mucha menos sobrecarga, más portabilidad y eficiencia</p>
+                    </div>
+                </section>
 
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
+                <section>
+                    <h2>Ejemplos prácticos</h2>
+                    <img src="imgs/jira-pg.png" style="background-color: #ffffff" width="80%">
+                </section>
 
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
+                <section>
+                    <h2>Ejemplos prácticos</h2>
+                    <img src="imgs/jira-stash-pg.png" style="background-color: #ffffff" width="80%">
+                </section>
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
+                <section>
+                    <h2>Ejemplos prácticos</h2>
+                    <img src="imgs/jira-pg-stash-pg.png" style="background-color: #ffffff" width="80%">
+                </section>
 
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="//www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
+                <section>
+                    <h2>Ejemplos prácticos</h2>
+                    <img src="imgs/nginx-jira-stash.png" style="background-color: #ffffff" width="80%">
+                </section>
 
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
+                <section>
+                    <h2>Enlaces de interés</h2>
+                    <ul>
+                        <li>
+                            <a href="http://introbay.com" target="_blank">introbay.com</a>
+                        </li>
+                        <li>
+                            <a href="http://docker.io" target="_blank">docker.io</a>
+                        </li>
+                        <li>
+                            <a href="http://stackengine.com" target="_blank">stackengine.com</a>
+                        </li>
+                        <li>
+                            <a href="http://slideshare.net/dotCloud/presentations" target="_blank">slideshare.net/dotCloud/presentations</a>
+                        </li>
+                        <li>
+                            <a href="http://registry.hub.docker.com" target="_blank">registry.hub.docker.com</a>
+                        </li>
+                        <li>
+                            <a href="http://platform.sh" target="_blank">platform.sh</a>
+                        </li>
+                    </ul>
+                </section>
 
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
-				</section>
-
-			</div>
-
-		</div>
+            </div>
+        </div>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
@@ -391,17 +299,33 @@ Reveal.addEventListener( 'customevent', function() {
 				progress: true,
 				history: true,
 				center: true,
-
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-				// Optional reveal.js plugins
+
+                // Parallax background image
+                parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+                // Parallax background size
+                parallaxBackgroundSize: '2100px 900px', // CSS syntax, e.g. "2100px 900px"
+
+                // Amount to move parallax background (horizontal and vertical) on slide change
+                // Number, e.g. 100
+                //parallaxBackgroundHorizontal: '',
+                //parallaxBackgroundVertical: '',
+
+                math: {
+                    mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+                    config: 'TeX-AMS_HTML-full' // See http://docs.mathjax.org/en/latest/config-files.html
+                },
+                // Optional reveal.js plugins
 				dependencies: [
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
 					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: 'plugin/notes/notes.js', async: true },
 				]
 			});
 
